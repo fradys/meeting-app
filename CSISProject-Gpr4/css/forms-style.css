@@ -1,0 +1,161 @@
+    <link href="https://fonts.googleapis.com/css?family=Francois+One" rel="stylesheet">
+    <link href='http://fonts.googleapis.com/css?family=Bitter' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+    <style type="text/css" media="screen">
+
+      body {
+        background: rgba(242,240,240,0.6);
+        padding: 0 !important;
+        margin: 0 !important;
+      }
+
+      h2 {
+        text-align: center;
+        font-size: 1.5em;
+        text-shadow: 4px 4px 8px #223012;
+        color: #510702;
+      }
+
+      .meeting-container {
+        width: 770px;
+        height: 530px;
+        position: relative;
+        top: -8px;
+        left: -8px;
+        border: 0; /*1px solid rgba(136, 162, 204, 0.7);*/
+        margin: 0 !important;
+        padding-top: 6px;
+        /*border-radius: 10px;*/
+        background: rgb(160, 190, 224);
+        font-family: 'Cabin', sans-serif, Arial, serif;
+        color: #223012;
+      }
+
+      .meeting-form-left {
+        margin-left: 5px;
+        background: rgb(119, 153, 206);
+        float: left;
+        width: 45%;
+        height: 390px;
+        border-radius: 12px;
+        padding: 12px;
+        box-shadow: 5px 5px 5px rgba(136, 140, 190, 0.7);
+      }
+
+      .meeting-form-right {
+        background: rgb(119, 153, 206);
+        float: right;
+        margin-right: 5px;
+        width: 46%;
+        height: 390px;
+        border-radius: 12px;
+        padding: 12px;
+        box-shadow: 5px 5px 5px rgba(136, 140, 190, 0.7);
+      }
+
+      .meeting-container h4 {
+        margin: 0;
+        color: #03380e;
+        text-decoration: none;
+        font-weight: none;
+        font-size: 1.1em;
+        margin-bottom: 5px;
+        font-family: 'Francois One', sans-serif;
+      }
+
+      .meeting-container input[type="date"],
+      .meeting-container input[type="text"],
+    	.meeting-container input[type="date"],
+    	.meeting-container input[type="datetime"],
+    	.meeting-container input[type="email"],
+    	.meeting-container input[type="number"],
+    	.meeting-container input[type="search"],
+    	.meeting-container input[type="time"],
+    	.meeting-container input[type="url"],
+    	.meeting-container input[type="tel"],
+    	.meeting-container textarea,
+    	.meeting-container select {
+    	    font-family: Georgia, "Times New Roman", Times, serif;
+    	    background: rgba(242,240,240,0.6);
+    	    border: none;
+    	    border-radius: 4px;
+    	    font-size: 15px;
+    	    margin: 0;
+    	    outline: 0;
+    	    padding: 7px;
+    	    width: 100%;
+    	    box-sizing: border-box;
+    	    -webkit-box-sizing: border-box;
+    	    -moz-box-sizing: border-box;
+    	    color: #102547;
+    	    -webkit-box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    	    box-shadow: 0 1px 0 rgba(0,0,0,0.03) inset;
+    	    margin-bottom: 15px;
+          resize: none;
+    	}
+
+      .inline {
+        width: 48% !important;
+      }
+
+      .meeting-container label {
+        margin-bottom: 2px;
+        font-family: 'Francois One', sans-serif;
+      }
+
+      .meeting-container button {
+  	    display: inline-block;
+  	    color: #FFB;
+  	    background: #1abc9c;
+  	    font-size: 16px;
+  	    text-align: center;
+  	    font-style: normal;
+  	    border: 1px solid #16a085;
+  	    border-width: 1px 1px 3px;
+      }
+
+      .meeting-container input[type="text"]:focus,
+      .meeting-container input[type="date"]:focus,
+      .meeting-container input[type="datetime"]:focus,
+      .meeting-container input[type="email"]:focus,
+      .meeting-container input[type="number"]:focus,
+      .meeting-container input[type="search"]:focus,
+      .meeting-container input[type="time"]:focus,
+      .meeting-container input[type="url"]:focus,
+      .meeting-container input[type="tel"]:focus,
+      .meeting-container textarea:focus,
+      .meeting-container select:focus{
+          background: #d2d9b1;
+      }
+
+      .location {
+        position: relative;
+        left: 10px;
+      }
+
+      .meeting-form-bottom {
+        float: right;
+        width: 48%;
+        height: 45px;
+        padding: 8px;
+      }
+
+      .btnBottomForm {
+        position: relative;
+        margin-left: 35px;
+        height: 80%;
+        background: #2A88AD !important;
+  	    font-size: 20px !important;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        color: #fff !important;
+        text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.12);
+        font: normal 30px 'Bitter', serif;
+        -moz-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+        -webkit-box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+        box-shadow: inset 0px 2px 2px 0px rgba(255, 255, 255, 0.17);
+        border: 1px solid #257C9E !important;
+      }
+
+    </style>

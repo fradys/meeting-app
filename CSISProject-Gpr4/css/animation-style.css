@@ -1,0 +1,25 @@
+<style type="text/css" media="screen">
+
+  @keyframes notFound {
+   0%   {background: rgba(242,240,240, 0.6);}
+   15%  {background: rgba(229, 153, 153, 0.6);}
+   30%  {background: rgba(229, 98, 98, 0.6);}
+   45%  {background: rgba(221, 42, 42, 0.6);}
+   55%  {background: rgba(219, 4, 4, 0.6);}
+   65%  {background: rgba(221, 42, 42, 0.6);}
+   80%  {background: rgba(229, 98, 98, 0.6);}
+   90%  {background: rgba(229, 153, 153, 0.6);}
+   100% {background: rgba(242,240,240,0.6);}
+  }
+
+
+  .notFound {
+   background: rgba(242,240,240,0.6);
+   -webkit-animation-name: notFound;
+   -webkit-animation-duration: 0.5s;
+   -moz-animation-name: notFound;
+   -moz-animation-duration: 0.5s;
+   animation-name: notFound;
+   animation-duration: 0.5s;
+  }
+</style>
